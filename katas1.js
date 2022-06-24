@@ -75,13 +75,25 @@ console.log (squareNumbers())
 function countingBackwards (){
     
     let countingBackwards = []
-    for (let i = 20; i>= 1; i--) {
-        if (i % 2 == 0)
+    for(let i = 20; i>= 1; i--) {
         countingBackwards.push(i)
     }
     return countingBackwards
 }
 console.log (countingBackwards())
+
+
+ function evenNumbersBackwards(){
+
+    let evenNumbersBackwards = []
+    for (let i = 20; i>= 1 ; i--) {
+        if (i % 2 == 0) 
+        evenNumbersBackwards.push(i)
+
+    }
+    return evenNumbersBackwards
+ }
+ console.log (evenNumbersBackwards())
 
 
 function oddNumbersBackwards(){
